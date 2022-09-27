@@ -1,2 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cursive:wght@300&family=Oswald&diplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Lato:wght@300&display=swap');
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logos */
 
