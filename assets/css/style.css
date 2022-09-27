@@ -7,20 +7,18 @@ body {
     background-image: url(https://www.topgear.com/sites/default/files/news-listicle/image/2019/12/dsc07306.jpg?w=1290&h=726);
 }
 
-#logo {
-    text-align: center;
-    font-size: 300%;
+.pill-nav a {
+    display: inline-block;
     color: white;
-    
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
-ul {
-    list-style-type: 0;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-  
-    
-}
+
+
+
 /* headings and logos */
 
