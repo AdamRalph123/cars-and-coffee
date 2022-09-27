@@ -4,7 +4,23 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-image: url(https://www.topgear.com/sites/default/files/news-listicle/image/2019/12/dsc07306.jpg?w=1290&h=726);
 }
 
+#logo {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    
+}
+
+ul {
+    list-style-type: 0;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  
+    
+}
 /* headings and logos */
 
