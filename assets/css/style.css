@@ -1,34 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Lato:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
-
-
-.bg-img {
-    /* The image used */
-    background-image: url(https://www.topgear.com/sites/default/files/news-listicle/image/2019/12/dsc07306.jpg?w=1290&h=726);
-    min-height: 600px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: relative;
-}
-
-.container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
 
 }
 
 .topnav {
+    position: relative;
     overflow: hidden;
     background-color: #333;
+
 }
 
 .topnav a {
@@ -37,10 +23,32 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .topnav a:hover {
-    background-color: cadetblue;
+    background-color: #ddd;
+    color: black;
+
 }
-/* headings and logos */
+
+.topnav a.active {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.topnav-left {
+    float: left;
+   
+}
+
+.topnav-right {
+    float: right;
+    text-align: right;
+}
+
+
+    
+
+
+
