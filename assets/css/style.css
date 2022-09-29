@@ -64,9 +64,26 @@ h1 {
 #full-image {
     height: 600px;
     width: 100%;
-    background: url('../css/images/background\ image\ cars\ and\ coffee.jpg');
+    background: url('../css/images/background\ image\ cars\ and\ coffee.jpg') no-repeat center center;
     background-size: cover;
+
+    /* Animates zoom effct on loading page */
+    animation-name: image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
 }
+
+/* Creates the lvel of zoom for full image */
+@keyframes image-zoom {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform:scale(1)
+    }
+}
+
+
 
 footer {
     height: 150px;
