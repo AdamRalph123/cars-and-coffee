@@ -87,9 +87,10 @@ h1 {
     position: relative;
     font-family: Lato, sans-serif;
 
+    
 }
 
-.text-block {
+.text-block-left {
     position: absolute;
     top: 30px;
     left: 30px;
@@ -101,13 +102,38 @@ h1 {
     
 }
 
-h3 {
-    font-size: 30px;
-    font-style: italic;
-    font-family: Lato, sans-serif
-    
-
+.text-block-right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #333;
+    color: #f2f2f2;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
+
+.text-block-center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    background-color: #333;
+    color: #f2f2f2;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    
+    
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+}
+
 
 footer {
     height: 150px;
