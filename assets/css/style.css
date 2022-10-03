@@ -86,8 +86,10 @@ h1 {
 .container {
     position: relative;
     font-family: Lato, sans-serif;
-   
-    
+    background: url(/assets/css/images/about\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 .text-block-left {
@@ -155,6 +157,79 @@ h3 {
     width: 100%;
     height: 300px;
 }
+
+.form-section {
+    background: url(/assets/css/images/signup\ image.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+    height: 380px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+    border: 2px solid rgba(8, 7, 16, 0.6);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    margin-top: 10px;
+}
+
+form *{
+    font-family: Lato, sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: white
+}
+
+.join-button {
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 footer {
     height: 150px;
