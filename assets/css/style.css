@@ -64,8 +64,9 @@ h1 {
 #full-image {
     height: 600px;
     width: 100%;
-    background: url('../images/background\ image\ cars\ and\ coffee.jpg') no-repeat center center;
+    background: url('../images/background\ image\ cars\ and\ coffee.jpg') no-repeat;
     background-size: cover;
+
 
     /* Animates zoom effct on loading page */
     animation-name: image-zoom;
@@ -99,8 +100,9 @@ h1 {
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: #333;
-    color: #f2f2f2;
+    padding: 20px;
+    background-color: white;
+    color: black;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
@@ -113,8 +115,9 @@ h1 {
     position: absolute;
     top: 30px;
     right: 30px;
-    background-color: #333;
-    color: #f2f2f2;
+    padding: 20px;
+    background-color: white;
+    color: black;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
@@ -127,9 +130,10 @@ h1 {
     position: absolute;
     top:35%;
     left: 47%;
+    padding: 20px;
     transform: translate(-40%, -50%);
-    background-color: #333;
-    color: #f2f2f2;
+    background-color: white;
+    color: black;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
@@ -167,21 +171,21 @@ h3 {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    display: flex;
 }
 
 form {
-    height: 380px;
+    height: 400px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 10%;
-    border: 2px solid rgb(8, 7, 16);
-    box-shadow: 0 0 20px rgb(8, 7, 16);
-    padding: 40px 35px;
-    margin-top: 10px;
+    border-radius: 2%;
+    border: 5px solid rgb(8, 7, 16);
+    box-shadow: 0 0 30px rgb(8, 7, 16);
+    margin-top: 20px;
 }
 
 form *{
@@ -193,17 +197,18 @@ form *{
 }
 
 form h2 {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bolder;
-    line-height: 30px;
+    line-height: 15px;
     text-align: center;
+    margin-top: 7px;
 
 }
 
 label {
     display: block;
-    margin-top: 28px;
-    font-size: 16px;
+    margin-top: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -212,8 +217,7 @@ input {
     height: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.692);
-    border-radius: 3px;
-    padding: 0 10px;
+    border-radius: 10px;
     margin-top: 2px;
     font-size: 18px;
     font-weight: 300;
@@ -241,6 +245,7 @@ footer {
     position: fixed;
     bottom: 0;
 
+
 }
 
 .social-networks {
@@ -261,42 +266,29 @@ footer {
     
 }
 
-@media screen and (max-width: 1200px) {
-    body, .topnav {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+/* For larger screens like tablets */
+@media screen and (max-width: 769px) {
+    .text-block-right {
+        background-color: blue;
     }
-
-    .topnav-right {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .center-logo {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    section {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
+    
 }
 
-@media screen and (max-width: 950px){
-    #full-image {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-}
+/* For mobile devices - large */
+@media screen and (max-width: 768px) {
+    .text-block-left {
+        background-color: red;
+    }
+    
 }
 
-
+/* For mobile devices - small */
+@media screen and (max-width: 600px) {
+    .text-block-center {
+        background-color: green;
+    }
+    
+}
 
 
 
