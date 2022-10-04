@@ -9,9 +9,10 @@ body {
     font-family: Lato, sans-serif;
 }
 
+/* Navbar and main header */
+
 .topnav {
     position: relative;
-    overflow: hidden;
     background-color: #333;
     font-weight: bolder;
 }
@@ -58,10 +59,12 @@ h1 {
     letter-spacing: 3px;
 } 
 
+/* Background image for home page */
+
 #full-image {
     height: 600px;
     width: 100%;
-    background: url('../css/images/background\ image\ cars\ and\ coffee.jpg') no-repeat center center;
+    background: url('../images/background\ image\ cars\ and\ coffee.jpg') no-repeat center center;
     background-size: cover;
 
     /* Animates zoom effct on loading page */
@@ -80,10 +83,13 @@ h1 {
     }
 }
 
+/* About page image and text blocks */
+
+
 .container {
     position: relative;
     font-family: Lato, sans-serif;
-    background: url(/assets/css/images/about\ img.jpg);
+    background: url('../images/about\ img.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -140,6 +146,8 @@ h3 {
     text-decoration: underline;
 }
 
+/* Gallery photos */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -152,8 +160,10 @@ h3 {
     height: 300px;
 }
 
+/* Form section */
+
 .form-section {
-    background: url(/assets/css/images/signup\ 2.jpg);
+    background: url('../images/signup\ 2.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -252,7 +262,13 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    .topnav {
+    body, .topnav {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .topnav-right {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -277,9 +293,7 @@ footer {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        
-
-    }
+}
 }
 
 
