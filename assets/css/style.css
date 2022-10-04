@@ -62,11 +62,11 @@ h1 {
 /* Background image for home page */
 
 #full-image {
-    position: relative;
-    text-align: center;
-    color: white;
-
-
+    background: url(/assets/images/background\ image\ cars\ and\ coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
     /* Animates zoom effct on loading page */
     animation-name: image-zoom;
     animation-duration: 2s;
@@ -83,16 +83,22 @@ h1 {
     }
 }
 
-.centered {
+.quote {
+    background-color: darkgrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 200px;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 35%;
+    left: 10%;
     transform: translate(-50%, -50%);
+
 }
 
-.centered p {
-    font-size: 20px;
-}
 
 /* About page image and text blocks */
 
