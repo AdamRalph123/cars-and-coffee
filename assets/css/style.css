@@ -7,7 +7,6 @@
 
 body {
     font-family: Lato, sans-serif;
-
 }
 
 .topnav {
@@ -15,7 +14,6 @@ body {
     overflow: hidden;
     background-color: #333;
     font-weight: bolder;
-
 }
 
 .topnav a {
@@ -48,7 +46,6 @@ body {
     float: right;
     text-align: right;
 }
-
 
 h1 {
     color: white;
@@ -104,9 +101,6 @@ h1 {
     width: 220px;
     height: 170px;
     border-radius: -100%;
-   
-
-    
 }
 
 .text-block-right {
@@ -125,8 +119,8 @@ h1 {
 
 .text-block-center {
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top:35%;
+    left: 47%;
     transform: translate(-40%, -50%);
     background-color: #333;
     color: #f2f2f2;
@@ -232,7 +226,6 @@ input {
     cursor: pointer;
 }
 
-
 footer {
     height: 150px;
     position: fixed;
@@ -248,8 +241,6 @@ footer {
 
 .social-networks > li {
     display: inline;
-    
-    
 }
 
 .social-networks i {
@@ -258,6 +249,37 @@ footer {
     padding: 6%;
     color: white;
     
+}
+
+@media screen and (max-width: 1200px) {
+    .topnav {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .center-logo {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    section {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #full-image {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        
+
+    }
 }
 
 
