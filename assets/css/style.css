@@ -62,10 +62,9 @@ h1 {
 /* Background image for home page */
 
 #full-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/background\ image\ cars\ and\ coffee.jpg') no-repeat;
-    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
 
 
     /* Animates zoom effct on loading page */
@@ -82,6 +81,17 @@ h1 {
     to{
         transform:scale(1)
     }
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered p {
+    font-size: 20px;
 }
 
 /* About page image and text blocks */
@@ -183,8 +193,8 @@ form {
     top: 50%;
     left: 50%;
     border-radius: 2%;
-    border: 5px solid rgb(8, 7, 16);
-    box-shadow: 0 0 30px rgb(8, 7, 16);
+    border: 2px solid rgb(8, 7, 16);
+    box-shadow: 0 0 10px rgb(8, 7, 16);
     margin-top: 20px;
 }
 
@@ -202,7 +212,6 @@ form h2 {
     line-height: 15px;
     text-align: center;
     margin-top: 7px;
-
 }
 
 label {
