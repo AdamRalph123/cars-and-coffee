@@ -85,8 +85,6 @@ h1 {
 
 .quote {
     background-color: black;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     color: white;
     padding: 10px;
     font-size: 20px;
@@ -100,8 +98,6 @@ h1 {
 
 .quote-2 {
 background-color: black;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
 color: white;
 padding: 10px;
 font-size: 20px;
@@ -113,66 +109,67 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+.quote-3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    }
 /* About page image and text blocks */
 
+.mapouter {
+    position: absolute;
+    float: right;
+    margin-top: 30px;
+}
 
-.container {
+img {
+    width: 650px;
     position: relative;
-    font-family: Lato, sans-serif;
-    background: url('../images/about\ img.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
 }
 
-.text-block-left {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    padding-left: 5px;
-    padding-right: 5px;
+.top {
+    line-height: 20px;
     text-align: center;
-    width: 220px;
-    height: 170px;
-    border-radius: -100%;
+    margin-top: 20px;
+    font-size: 18px;
 }
 
-.text-block-right {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    width: 220px;
-    height: 180px;
-    border-radius: -100%;
+.top p {
+    border: 5px solid red;
+
 }
 
-.text-block-center {
-    position: absolute;
-    top:35%;
-    left: 47%;
-    padding: 20px;
-    transform: translate(-40%, -50%);
-    background-color: white;
-    color: black;
-    padding-left: 5px;
-    padding-right: 5px;
+.middle {
+    line-height: 20px;
     text-align: center;
-    width: 220px;
-    height: 180px;
-    border-radius: -100%;
+    margin-top: 20px;
+    font: 18px;
+}
+
+.middle p {
+    border: 5px solid black;
+}
+
+.bottom {
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.bottom p {
+    border: 5px solid blue;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Lato, sans-serif;
     text-transform: capitalize;
     padding-bottom: 7px;
@@ -290,7 +287,7 @@ footer {
     font-size: 200%;
     margin: 5%;
     padding: 6%;
-    color: white;
+    color: deepskyblue;
     
 }
 
