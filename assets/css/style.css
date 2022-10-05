@@ -84,21 +84,34 @@ h1 {
 }
 
 .quote {
-    background-color: darkgrey;
+    background-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
     padding: 10px;
     font-size: 20px;
     width: 150px;
-    height: 200px;
+    height: 190px;
     position: absolute;
     top: 35%;
     left: 10%;
     transform: translate(-50%, -50%);
-
 }
 
+.quote-2 {
+background-color: black;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+color: white;
+padding: 10px;
+font-size: 20px;
+width: 150px;
+height: 190px;
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 
 /* About page image and text blocks */
 
