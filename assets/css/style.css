@@ -195,7 +195,7 @@ h3 {
 /* Form section */
 
 .form-section {
-    background: url('../images/signup\ 2.jpg');
+    background: url('../images/signup\ 2.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -296,16 +296,62 @@ footer {
 /* For larger screens like tablets */
 @media screen and (max-width: 992px) {
 
+    #full-image {
+        background-size: cover;
+    }
+
 }
 
 /* For mobile devices - large */
 @media screen and (max-width: 768px) {
+    #full-image {
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
 }
 
 /* For mobile devices - small */
 @media screen and (max-width: 600px) {
     #photos {
         column-count: 1;
+    }
+
+    #full-image {
+        background-size: cover;
+        height: 100vh;
+        width: -100%;
+    }
+
+    .form-section {
+        background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    form {
+        margin-top: 140px;
+        width: 100%;
+    }
+
+    form h2 {
+        line-height: 30px;
+    }
+
+    .quote {
+        margin-top: 140px;
+        margin-bottom: 40px;
+    }
+    .quote-2 {
+        margin-top: 140px;
+
+    }
+     .quote-3 {
+        margin-top: 140px;
+    }
+
+    #full-image {
+        background-size: 100vh;
     }
     
 }
