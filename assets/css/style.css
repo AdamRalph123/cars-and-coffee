@@ -199,7 +199,6 @@ h3 {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    display: flex;
 }
 
 form {
@@ -300,14 +299,27 @@ footer {
         background-size: cover;
     }
 
+    .quote, .quote-2, .quote-3 {
+        margin-top: 50px;
+    }
+
 }
 
 /* For mobile devices - large */
 @media screen and (max-width: 768px) {
     #full-image {
         background-size: cover;
-        height: 100vh;
-        width: 100%;
+       
+    }
+    
+    .quote, .quote-2, .quote-3 {
+        margin-top: 50px;
+    }
+
+    .form-section {
+        background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
+        background-size: cover;
+
     }
 
 }
@@ -321,16 +333,16 @@ footer {
     #full-image {
         background-size: cover;
         height: 100vh;
-        width: -100%;
+
     }
 
     .form-section {
         background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
-        background-size: cover;
+        background-size: cover
     }
 
     form {
-        margin-top: 140px;
+        margin-top: 150px;
         width: 100%;
     }
 
@@ -339,19 +351,37 @@ footer {
     }
 
     .quote {
-        margin-top: 140px;
-        margin-bottom: 40px;
+        margin-top: 130px;
+        padding: 0;
+        left: 50%;
+    
     }
     .quote-2 {
-        margin-top: 140px;
+        margin-top: 350px;
+        padding: 0;
+        left: 50%;
 
     }
      .quote-3 {
-        margin-top: 140px;
+        margin-top: 550px;
+        padding: 0;
+        left: 50%;
+        
     }
 
     #full-image {
         background-size: 100vh;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mapouter {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
     }
     
 }
