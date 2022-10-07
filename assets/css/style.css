@@ -308,7 +308,7 @@ footer {
 /* For mobile devices - large */
 @media screen and (max-width: 768px) {
     #full-image {
-        background-size: cover;
+        width: 100%;
        
     }
     
@@ -351,23 +351,24 @@ footer {
     }
 
     .quote {
-        margin-top: 130px;
-        padding: 0;
-        left: 50%;
+        margin-top: 60px;
+        left: 20%;
     
     }
     .quote-2 {
-        margin-top: 350px;
+        margin-top: 200px;
+        padding-bottom: 20px;
         padding: 0;
         left: 50%;
 
     }
      .quote-3 {
-        margin-top: 550px;
+        margin-top: 360px;
         padding: 0;
-        left: 50%;
+        left: 80%;
         
     }
+    
 
     #full-image {
         background-size: 100vh;
