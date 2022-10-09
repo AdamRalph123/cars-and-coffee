@@ -38,3 +38,40 @@ Users of this website will be able to navigate exactly what they are looking for
 <ul>
 <li>The sign up page has a background image and has a sign up form for the user to stay informed of the next Cars and Coffee event.</li>
 <li>The sign up form has a clear background so that you can still see the background image, it has a first name, last name and email address input and also has submit button.</li></ul>
+
+## Some things i would have done differently
+I would have changed my gallery page to a slideshow display which would have made it more interactive for its user.
+
+
+
+
+
+
+
+
+## Plagiarism
+My background image for the home page is from https://www.topgear.com/car-news/retro/which-better-bmw-e30-m3-or-mercedes-190e
+
+My image on my about page is from https://newsroom.porsche.com/en_AU/2020/products/911-turbo-s-launch-control-the-event-22731.html
+
+My google map location is from https://google-map-generator.com/
+
+My icons are from https://fontawesome.com/
+
+'Cars on a runway' image from the gallery page is from https://wallpaper.dog/sports-car-wallpapers
+
+'A birds eye view of cars and coffee' image from the gallery page is from https://www.posthtx.com/event/coffee-and-cars-at-post
+
+'Cars and coffee event' image from the gallery page is from https://canepa.com/category/news/canepa-cars-and-coffee/
+
+'Mercedes cars' image from the gallery page is from https://www.pexels.com/photo/white-mercedes-benz-cars-120049/
+
+'Top view of cars and coffee' image from the gallery page is from https://www.pexels.com/photo/high-angle-photo-of-vehicles-parked-near-building-753876/
+
+'Blue ford car' image from the gallery page is from https://www.pexels.com/photo/parked-cars-1077785/
+
+My sign up page background image is from https://wallhere.com/en/wallpaper/1759671
+
+The footer social media icons and links our from the 'Love Running' project
+
+I got some of my information from https://www.w3schools.com/
