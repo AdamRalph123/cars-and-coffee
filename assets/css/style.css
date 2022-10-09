@@ -137,37 +137,31 @@ img {
 }
 
 .top {
-    line-height: 20px;
+    line-height: 25px;
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 
-.top p {
-    border: 5px dotted red;
-
-}
 
 .middle {
-    line-height: 20px;
+    line-height: 25px;
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 
-.middle p {
-    border: 5px double black;
-}
 
 .bottom {
-    line-height: 20px;
+    line-height: 25px;
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-}
-
-.bottom p {
-    border: 5px solid blue;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
 }
 
 h3 {
