@@ -307,9 +307,22 @@ footer {
         width: 100%;
        
     }
-    
-    .quote, .quote-2, .quote-3 {
-        margin-top: 50px;
+
+    .quote {
+        font-size: 17px;
+        height: 130px;
+        left: 15%;
+    }
+
+    .quote-2 {
+        font-size: 17px;
+        height: 150px;
+    }
+
+    .quote-3 {
+        font-size: 17px;
+        height: 130px;
+        left: 85%;
     }
 
     .form-section {
@@ -334,7 +347,8 @@ footer {
 
     .form-section {
         background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
-        background-size: cover
+        background-size: cover;
+        max-width: 100%;
     }
 
     form {
@@ -347,21 +361,28 @@ footer {
     }
 
     .quote {
-        margin-top: 60px;
-        left: 20%;
+        margin-top: 10px;
+        left: 30%;
+        font-size: 12px;
+        height: 70px;
+        
     
     }
     .quote-2 {
-        margin-top: 200px;
+        margin-top: 150px;
         padding-bottom: 20px;
         padding: 0;
         left: 50%;
+        font-size: 12px;
+        height: 89px;
 
     }
      .quote-3 {
-        margin-top: 360px;
+        margin-top: 250px;
         padding: 0;
-        left: 80%;
+        left: 70%;
+        font-size: 12px;
+        height: 80px;
         
     }
     
@@ -380,7 +401,18 @@ footer {
         height: 100%;
         font-size: 18px;
     }
-    
+
+    .topnav {
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .topnav a {
+        font-size: 10px;
+    }
 }
     
 

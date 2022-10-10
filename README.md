@@ -48,7 +48,6 @@ I would have changed my gallery page to a slideshow display which would have mad
 
 
 
-
 ## Plagiarism
 My background image for the home page is from https://www.topgear.com/car-news/retro/which-better-bmw-e30-m3-or-mercedes-190e
 
