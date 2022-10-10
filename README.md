@@ -1,8 +1,6 @@
 # Cars and Coffee
 #### A website for a Dublin based car event.
 
-## Welcome! [Code Institute](https://codeinstitute.net)
-
 Cars and Coffee is a webite for people who have a passion for cars, it is an event website that has information of what Cars and Coffee is, information about when the event is help and locations. 
 
 Users of this website will be able to navigate exactly what they are looking for through the navigation bar in the header of the page.
