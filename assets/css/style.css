@@ -133,8 +133,10 @@ transform: translate(-50%, -50%);
 }
 
 img {
-    width: 650px;
-    position: relative;
+    width: 700px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+    height: 500px;
 }
 
 .first {
