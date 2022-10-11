@@ -1,7 +1,7 @@
 # Cars and Coffee
 #### A website for a Dublin based car event.
 
-Cars and Coffee is a webite for people who have a passion for cars, it is an event website that has information of what Cars and Coffee is, information about when the event is help and locations. 
+<br>Cars and Coffee is a webite for people who have a passion for cars, it is an event website that has information of what Cars and Coffee is, information about when the event is help and locations. 
 
 Users of this website will be able to navigate exactly what they are looking for through the navigation bar in the header of the page.
 
@@ -40,13 +40,15 @@ Users of this website will be able to navigate exactly what they are looking for
 ## Some things i would have done differently
 I would have changed my gallery page to a slideshow display which would have made it more interactive for its user.
 
+## Testing
+The website has no issues on W3C css
+![Locations](/assets/README%20images/css%20validator.png)
 
 
 
 
 
-
-## Plagiarism
+## Credits
 My background image for the home page is from https://www.topgear.com/car-news/retro/which-better-bmw-e30-m3-or-mercedes-190e
 
 My image on my about page is from https://newsroom.porsche.com/en_AU/2020/products/911-turbo-s-launch-control-the-event-22731.html
