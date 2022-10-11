@@ -65,7 +65,7 @@ h1 {
     background: url(/assets/images/background\ image\ cars\ and\ coffee.jpg);
     background-position: center;
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
     
     /* Animates zoom effct on loading page */
@@ -124,12 +124,10 @@ transform: translate(-50%, -50%);
     }
 /* About page image and mapouter */
 
-.mapouter {
-    position: absolute;
+iframe {
     float: right;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: bolder;
+    height: 500px;
+    width: 40vw;
 }
 
 img {
@@ -187,6 +185,7 @@ h2 {
 #photos > img {
     width: 100%;
     height: 300px;
+    
 }
 
 /* Form section */
@@ -290,6 +289,20 @@ footer {
     
 }
 
+
+/* For Desktop */
+@media screen and (max-width: 1200px) {
+    iframe {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    img {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
 /* For larger screens like tablets */
 @media screen and (max-width: 992px) {
 
@@ -299,6 +312,11 @@ footer {
 
     .quote, .quote-2, .quote-3 {
         margin-top: 50px;
+    }
+
+    iframe {
+        height: 100vh;
+        width: 100vw;
     }
 
 }
@@ -333,6 +351,11 @@ footer {
 
     }
 
+    iframe {
+        height: 100vh;
+        width: 100vw;
+    }
+
 }
 
 /* For mobile devices - small */
@@ -344,6 +367,7 @@ footer {
     #full-image {
         background-size: cover;
         height: 100vh;
+        width: 100%;
 
     }
 
@@ -398,10 +422,9 @@ footer {
         height: 100%;
     }
 
-    .mapouter {
-        width: 100%;
-        height: 100%;
-        font-size: 18px;
+    iframe {
+        width: 100vw;
+        height: 60vh;
     }
 
     .topnav {
