@@ -5,16 +5,16 @@
 
 Users of this website will be able to navigate exactly what they are looking for through the navigation bar in the header of the page.
 
-## Features
+# Features
 
-### Navigation
+## Navigation
 <ul>
 <li>The navigation is featured at the top of the page with the name of the website too.</li>
 <li>It includes a home page, about, gallery and a sign up page.</li>
 <li>The name of the website is inbetween the navigation links, the font size is bigger than the navigation links so that it clearly tells the user the name of the website.</li>
 </ul>
 
-### The Home page
+## The Home page
 <ul>
 <li>The home page has two icons either side of the name of the website which I got from Font Awesome</li>
 <li>The home page also has a background image with the footer at the bottom of the screen with the facebook, twitter, instagram and youtube social media links.</li>
@@ -23,16 +23,16 @@ Users of this website will be able to navigate exactly what they are looking for
 </ul>
 
 
-### The About page
+## The About page
 <ul>
 <li>The about page has three h3 elements with three questions with icons and three answers that users will find the information they need.</li>
 <li>There is an image on the page along with a map location of the previous event location.</li></ul>
 
-### The Gallery page
+## The Gallery page
 <ul>
 <li>The gallery page has images of previous Cars and Coffee events, this shows the user what an event will look like and what to expect, it might excite the user to go to an event.</li></ul>
 
-### The Sign up page 
+## The Sign up page 
 <ul>
 <li>The sign up page has a background image and has a sign up form for the user to stay informed of the next Cars and Coffee event.</li>
 <li>The sign up form has a clear background so that you can still see the background image, it has a first name, last name and email address input and also has submit button.</li></ul>
@@ -40,15 +40,27 @@ Users of this website will be able to navigate exactly what they are looking for
 ## Some things i would have done differently
 I would have changed my gallery page to a slideshow display which would have made it more interactive for its user.
 
-## Testing
-The website has no issues on W3C css
+# Testing
+## The website has no issues on W3C css
 ![Locations](/assets/README%20images/css%20validator.png)
 
+## Home page lighthouse for mobile
+![Locations]
+
+## About page lighthouse for mobile
+![Locations]
+
+## Gallery page lighthouse for mobile
+![Locations](/assets/README%20images/gallery%20mobile%20lighthouse.png)
+
+## Sign Up page lighthouse for mobile
+![Locations]
 
 
 
 
-## Credits
+
+# Credits
 My background image for the home page is from https://www.topgear.com/car-news/retro/which-better-bmw-e30-m3-or-mercedes-190e
 
 My image on my about page is from https://newsroom.porsche.com/en_AU/2020/products/911-turbo-s-launch-control-the-event-22731.html
