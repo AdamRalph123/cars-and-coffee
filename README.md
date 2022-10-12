@@ -24,20 +24,31 @@ Users of this website will be able to navigate exactly what they are looking for
 <li>There is 3 boxes on the image which are quotes that people have said from being at a Cars and Coffee event.
 </ul>
 
+![Locations](/assets/README-images/screenshot-home-page.png)
+
+
 
 ## The About page
 <ul>
 <li>The about page has three h3 elements with three questions with icons and three answers that users will find the information they need.</li>
 <li>There is an image on the page along with a map location of the previous event location.</li></ul>
 
+![Locations](/assets/README-images/Screenshot-about-page-top.png)
+![Loactions](/assets/README-images/Screenshot-about-page-bottom.png)
+
 ## The Gallery page
 <ul>
 <li>The gallery page has images of previous Cars and Coffee events, this shows the user what an event will look like and what to expect, it might excite the user to go to an event.</li></ul>
+
+![Locations](/assets/README-images/Screenshot-gallery-top.png)
+![Locations](/assets/README-images/Screenshot-gallery-bottom.png)
 
 ## The Sign up page 
 <ul>
 <li>The sign up page has a background image and has a sign up form for the user to stay informed of the next Cars and Coffee event.</li>
 <li>The sign up form has a clear background so that you can still see the background image, it has a first name, last name and email address input and also has submit button.</li></ul>
+
+![Loactions](/assets/README-images/screenshot-signup%20.png)
 
 # Testing
 ## The website has no issues on W3C css
@@ -95,4 +106,4 @@ The footer social media icons and links our from the 'Love Running' project
 
 I got some of my information from https://www.w3schools.com/
 
-I would like to thank you for taking your time to read my README file.
+I would like to thank you for taking your time to read my README file for my first project.
