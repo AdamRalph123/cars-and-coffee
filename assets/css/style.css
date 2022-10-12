@@ -62,9 +62,10 @@ h1 {
 /* Background image for home page */
 
 #full-image {
-    background: url(/assets/images/background\ image\ cars\ and\ coffee.jpg);
+    background: url(/assets/images/background-image-home.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     
@@ -123,6 +124,17 @@ left: 90%;
 transform: translate(-50%, -50%);
     }
 /* About page image and mapouter */
+
+.container{
+    padding: 57px;
+    border: 1px solid;
+    margin: 4rem auto;
+    width: 80%;
+}
+
+.first, .second, .third{
+    padding: 2rem
+}
 
 iframe {
     float: right;
@@ -367,7 +379,8 @@ footer {
     #full-image {
         background-size: cover;
         height: 100vh;
-        width: 100%;
+        width: 100vw;
+        background-repeat: no-repeat;
 
     }
 
@@ -410,11 +423,6 @@ footer {
         font-size: 12px;
         height: 80px;
         
-    }
-    
-
-    #full-image {
-        background-size: 100vh;
     }
 
     img {
