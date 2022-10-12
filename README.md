@@ -1,5 +1,6 @@
 # Cars and Coffee
 #### A website for a Dublin based car event.
+![Locations](/assets/README-images/responsive.png)
 
 <br>Cars and Coffee is a webite for people who have a passion for cars, it is an event website that has information of what Cars and Coffee is, information about when the event is help and locations. 
 
@@ -39,28 +40,28 @@ Users of this website will be able to navigate exactly what they are looking for
 
 # Testing
 ## The website has no issues on W3C css
-![Locations](/assets/README%20images/css%20validator.png)
+![Locations](/assets/README-images/css-validator.png)
 
 ## W3C HTML validator for Home page
-![Locations](/assets/README%20images/home%20page%20html%20validator.png)
+![Locations](/assets/README-images/home-page-html-validator.png)
 ## W3C HTML validator for About page
-![Locations](/assets/README%20images/about%20page%20html%20validator.png)
+![Locations](/assets/README-images/about-page-html-validator.png)
 ## W3C HTML validator for Gallery page
-![Loactions](/assets/README%20images/gallery%20page%20html%20validator.png)
+![Loactions](/assets/README-images/gallery-page-html-validator.png)
 ## W3C HTML validator for Sign up page
-![Locations](/assets/README%20images/signup%20page%20html%20validator.png)
+![Locations](/assets/README-images/signup-page-html-validator.png)
 
 ## Home page lighthouse for mobile
-![Locations]
+![Locations](/assets/README-images/home-page-lighthouse.png)
 
 ## About page lighthouse for mobile
-![Locations]
+![Locations](/assets/README-images/about-page-lighthouse.png)
 
 ## Gallery page lighthouse for mobile
-![Locations](/assets/README%20images/gallery%20mobile%20lighthouse.png)
+![Locations](/assets/README-images/gallery-page-lighthouse.png)
 
 ## Sign Up page lighthouse for mobile
-![Locations]
+![Locations](/assets/README-images/signup-page-lighthouse.png)
 
 
 
@@ -92,3 +93,5 @@ My sign up page background image is from https://wallhere.com/en/wallpaper/17596
 The footer social media icons and links our from the 'Love Running' project
 
 I got some of my information from https://www.w3schools.com/
+
+I would like to thank you for taking your time to read my README file.
