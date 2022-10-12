@@ -34,14 +34,13 @@ Users of this website will be able to navigate exactly what they are looking for
 <li>There is an image on the page along with a map location of the previous event location.</li></ul>
 
 ![Locations](/assets/README-images/Screenshot-about-page-top.png)
-![Loactions](/assets/README-images/Screenshot-about-page-bottom.png)
 
 ## The Gallery page
 <ul>
 <li>The gallery page has images of previous Cars and Coffee events, this shows the user what an event will look like and what to expect, it might excite the user to go to an event.</li></ul>
 
 ![Locations](/assets/README-images/Screenshot-gallery-top.png)
-![Locations](/assets/README-images/Screenshot-gallery-bottom.png)
+
 
 ## The Sign up page 
 <ul>
