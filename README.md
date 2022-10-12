@@ -37,12 +37,18 @@ Users of this website will be able to navigate exactly what they are looking for
 <li>The sign up page has a background image and has a sign up form for the user to stay informed of the next Cars and Coffee event.</li>
 <li>The sign up form has a clear background so that you can still see the background image, it has a first name, last name and email address input and also has submit button.</li></ul>
 
-## Some things i would have done differently
-I would have changed my gallery page to a slideshow display which would have made it more interactive for its user.
-
 # Testing
 ## The website has no issues on W3C css
 ![Locations](/assets/README%20images/css%20validator.png)
+
+## W3C HTML validator for Home page
+![Locations](/assets/README%20images/home%20page%20html%20validator.png)
+## W3C HTML validator for About page
+![Locations](/assets/README%20images/about%20page%20html%20validator.png)
+## W3C HTML validator for Gallery page
+![Loactions](/assets/README%20images/gallery%20page%20html%20validator.png)
+## W3C HTML validator for Sign up page
+![Locations](/assets/README%20images/signup%20page%20html%20validator.png)
 
 ## Home page lighthouse for mobile
 ![Locations]
