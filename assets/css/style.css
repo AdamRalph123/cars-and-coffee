@@ -62,7 +62,7 @@ h1 {
 /* Background image for home page */
 
 #full-image {
-    background: url(/assets/images/background-image-home.jpg);
+    background: url('../images/background-image-home.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
