@@ -203,11 +203,11 @@ h2 {
 /* Form section */
 
 .form-section {
-    background: url('../images/signup\ 2.jpg') no-repeat;
+    background: url('../images/signup.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
-    max-width: 100%;
+    max-width: 100wh;
 }
 
 form {
@@ -358,15 +358,20 @@ footer {
     }
 
     .form-section {
-        background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
+        background: url('../images/signup.jpg') no-repeat center center;
         background-size: cover;
-
+        position: relative;
     }
 
     iframe {
         height: 100vh;
         width: 100vw;
     }
+
+    .topnav a {
+        font-size: 1rem;
+    }
+
 
 }
 
@@ -385,14 +390,19 @@ footer {
     }
 
     .form-section {
-        background: url(/assets/images/signup\ 2.jpg) no-repeat center center;
+        background: url('../images/signup.jpg') no-repeat center center;
         background-size: cover;
-        max-width: 100%;
+        position: relative;
+
     }
 
     form {
-        margin-top: 50px;
-        width: 100%;
+        width: 80vw;
+        height: 80vh;
+    }
+
+    label {
+        font-size: 1.5rem;
     }
 
     form h2 {
@@ -435,16 +445,12 @@ footer {
         height: 60vh;
     }
 
-    .topnav {
-        height: 70px;
+    .topnav a {
+        font-size: 1rem;
     }
 
     h1 {
-        font-size: 16px;
-    }
-
-    .topnav a {
-        font-size: 10px;
+        font-size: 1.2rem;
     }
 }
     
