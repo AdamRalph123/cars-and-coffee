@@ -331,6 +331,18 @@ footer {
         width: 100vw;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    .topnav {
+        font-size: 1.5rem;
+    }
+
+    .topnav a {
+        font-size: 1.5rem;
+    }
+
 }
 
 /* For mobile devices - large */
@@ -372,20 +384,22 @@ footer {
         font-size: 1rem;
     }
 
+    h1 {
+        font-size: 1.8rem;
+    }
+
 
 }
 
 /* For mobile devices - small */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     #photos {
         column-count: 1;
     }
 
     #full-image {
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        background-repeat: no-repeat;
+      width: 100vw;
+      height: 100vh;
 
     }
 
@@ -446,11 +460,11 @@ footer {
     }
 
     .topnav a {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
     
