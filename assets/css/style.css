@@ -70,9 +70,9 @@ h1 {
     height: 100vh;
     
     /* Animates zoom effct on loading page */
-    animation-name: image-zoom;
+    /* animation-name: image-zoom;
     animation-duration: 2s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; */
 }
 
 /* Creates the lvel of zoom for full image */
@@ -126,7 +126,6 @@ transform: translate(-50%, -50%);
 /* About page image and mapouter */
 
 .container{
-    padding: 57px;
     border: 1px solid;
     margin: 4rem auto;
     width: 80%;
@@ -197,7 +196,7 @@ h2 {
 #photos > img {
     width: 100%;
     height: 300px;
-    
+    object-fit: cover;
 }
 
 /* Form section */
@@ -213,7 +212,6 @@ h2 {
 form {
     height: 400px;
     width: 400px;
-    background-color: rgba(255, 255, 255, 0);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -222,6 +220,8 @@ form {
     border: 2px solid rgb(8, 7, 16);
     box-shadow: 0 0 10px rgb(8, 7, 16);
     margin-top: 20px;
+    background: #000000bd;
+    padding: 27px;
 }
 
 form *{
@@ -277,16 +277,10 @@ input {
 
 footer {
     height: 150px;
-    position: fixed;
-    bottom: 0;
-
-
 }
 
 .social-networks {
     text-align: center;
-    position: fixed;
-    bottom: 0;
 }
 
 .social-networks > li {
@@ -294,11 +288,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
+    font-size: 2rem;
     margin: 5%;
-    padding: 6%;
-    color: blue;
-    
+    color: blue; 
 }
 
 
