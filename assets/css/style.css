@@ -69,20 +69,6 @@ h1 {
     width: 100%;
     height: 100vh;
     
-    /* Animates zoom effct on loading page */
-    /* animation-name: image-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards; */
-}
-
-/* Creates the lvel of zoom for full image */
-@keyframes image-zoom {
-    from{
-        transform: scale(1.2);
-    }
-    to{
-        transform:scale(1)
-    }
 }
 
 .quote {
@@ -137,7 +123,7 @@ transform: translate(-50%, -50%);
 
 iframe {
     float: right;
-    height: 500px;
+    height: 550px;
     width: 40vw;
 }
 
@@ -146,6 +132,7 @@ img {
     float: left;
     margin: 0px 15px 15px 0px;
     height: 500px;
+    object-fit: contain;
 }
 
 .first {
@@ -289,8 +276,9 @@ footer {
 
 .social-networks i {
     font-size: 2rem;
-    margin: 5%;
-    color: blue; 
+    margin: 1%;
+    padding: 5%;
+    color: blue;
 }
 
 
@@ -328,11 +316,11 @@ footer {
     }
 
     .topnav {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .topnav a {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
 }
@@ -372,14 +360,17 @@ footer {
         width: 100vw;
     }
 
+    .topnav {
+        font-size: 1.5rem;
+    }
+
     .topnav a {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
-
 
 }
 
@@ -451,12 +442,16 @@ footer {
         height: 60vh;
     }
 
+    .topnav {
+        font-size: 0.8rem;
+    }
+
     .topnav a {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
     
