@@ -68,7 +68,6 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-
 }
 
 .quote {
@@ -134,8 +133,8 @@ iframe {
 img {
     width: 80%;
     height: 50%;
-    text-align: center;
-    object-fit: contain;
+    margin-left: 10%;
+    object-fit: cover;
 }
 
 .first {
@@ -187,6 +186,7 @@ h2 {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    margin-left: 0%;
 }
 
 /* Form section */
@@ -294,8 +294,8 @@ footer {
     }
 
     img {
-        height: 100vh;
-        width: 100vw;
+        width: 80%;
+        object-fit: cover;
     }
 
 }
@@ -304,13 +304,15 @@ footer {
 @media screen and (max-width: 992px) {
 
     #full-image {
-        background-size: cover;
+        height: 100vh;
+        width: 100%;
     }
 
     .quote,
     .quote-2,
     .quote-3 {
-        margin-top: 50px;
+        margin-top: 40px;
+        padding: 0%;
     }
 
     iframe {
@@ -330,13 +332,17 @@ footer {
         font-size: 1.3rem;
     }
 
+    img {
+        width: 80%;
+    }
+
 }
 
 /* For mobile devices - large */
 @media screen and (max-width: 768px) {
     #full-image {
+        height: 100vh;
         width: 100%;
-
     }
 
     .quote {
@@ -388,7 +394,7 @@ footer {
     }
 
     #full-image {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
 
     }
