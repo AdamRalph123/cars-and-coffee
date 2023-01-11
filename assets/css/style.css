@@ -40,7 +40,7 @@ body {
 
 .topnav-left {
     float: left;
-   
+
 }
 
 .topnav-right {
@@ -57,7 +57,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 3px;
-} 
+}
 
 /* Background image for home page */
 
@@ -68,7 +68,7 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    
+
 }
 
 .quote {
@@ -85,53 +85,56 @@ h1 {
 }
 
 .quote-2 {
-background-color: black;
-color: white;
-padding: 10px;
-font-size: 20px;
-width: 150px;
-height: 190px;
-position: absolute;
-top: 35%;
-left: 50%;
-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .quote-3 {
-background-color: black;
-color: white;
-padding: 10px;
-font-size: 20px;
-width: 150px;
-height: 190px;
-position: absolute;
-top: 35%;
-left: 90%;
-transform: translate(-50%, -50%);
-    }
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
 /* About page image and mapouter */
 
-.container{
+.container {
     border: 1px solid;
     margin: 4rem auto;
     width: 80%;
 }
 
-.first, .second, .third{
+.first,
+.second,
+.third {
     padding: 2rem
 }
 
 iframe {
-    float: right;
-    height: 550px;
-    width: 40vw;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    padding: 2%;
 }
 
 img {
-    width: 700px;
-    float: left;
-    margin: 0px 15px 15px 0px;
-    height: 500px;
+    width: 80%;
+    height: 50%;
+    text-align: center;
     object-fit: contain;
 }
 
@@ -160,7 +163,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
-    
+
 }
 
 h2 {
@@ -180,7 +183,7 @@ h2 {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -211,7 +214,7 @@ form {
     padding: 27px;
 }
 
-form *{
+form * {
     font-family: Lato, sans-serif;
     color: white;
     letter-spacing: 0.5px;
@@ -262,6 +265,8 @@ input {
     cursor: pointer;
 }
 
+/* Footer section */
+
 footer {
     height: 150px;
 }
@@ -270,7 +275,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -280,7 +285,6 @@ footer {
     padding: 5%;
     color: blue;
 }
-
 
 /* For Desktop */
 @media screen and (max-width: 1200px) {
@@ -293,8 +297,9 @@ footer {
         height: 100vh;
         width: 100vw;
     }
-    
+
 }
+
 /* For larger screens like tablets */
 @media screen and (max-width: 992px) {
 
@@ -302,7 +307,9 @@ footer {
         background-size: cover;
     }
 
-    .quote, .quote-2, .quote-3 {
+    .quote,
+    .quote-2,
+    .quote-3 {
         margin-top: 50px;
     }
 
@@ -312,15 +319,15 @@ footer {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .topnav {
-        font-size: 1.8rem;
+        height: 3.5rem;
     }
 
     .topnav a {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
 }
@@ -329,7 +336,7 @@ footer {
 @media screen and (max-width: 768px) {
     #full-image {
         width: 100%;
-       
+
     }
 
     .quote {
@@ -362,16 +369,16 @@ footer {
 
     .topnav {
         font-size: 1.5rem;
+        height: 3.5rem;
     }
 
     .topnav a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
-
 }
 
 /* For mobile devices - small */
@@ -381,8 +388,8 @@ footer {
     }
 
     #full-image {
-      width: 100vw;
-      height: 100vh;
+        width: 100vw;
+        height: 100vh;
 
     }
 
@@ -390,16 +397,17 @@ footer {
         background: url('../images/signup.jpg') no-repeat center center;
         background-size: cover;
         position: relative;
-
+        padding: 40px;
     }
 
     form {
         width: 80vw;
-        height: 80vh;
+        height: 70vh;
+        padding: 20px;
     }
 
     label {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     form h2 {
@@ -411,9 +419,8 @@ footer {
         left: 30%;
         font-size: 12px;
         height: 70px;
-        
-    
     }
+
     .quote-2 {
         margin-top: 150px;
         padding-bottom: 20px;
@@ -421,20 +428,14 @@ footer {
         left: 50%;
         font-size: 12px;
         height: 89px;
-
     }
-     .quote-3 {
+
+    .quote-3 {
         margin-top: 250px;
         padding: 0;
         left: 70%;
         font-size: 12px;
         height: 80px;
-        
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
     }
 
     iframe {
@@ -443,7 +444,7 @@ footer {
     }
 
     .topnav {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .topnav a {
@@ -451,16 +452,6 @@ footer {
     }
 
     h1 {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 }
-    
-
-
-
-  
-
-    
-
-
-
